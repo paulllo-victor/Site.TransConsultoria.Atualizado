@@ -1,0 +1,65 @@
+/*
+ * Autor: Jefferson Ricardo / Paulo Victor
+ * Versão: 1.0
+ * Data de crialçao: 20/02/2020 18:00hs
+ * Referência: Folha de estilos (CSS)
+ * Conteúdo: Geral
+ * =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ * Facebook: https://www.facebook.com/jeffersonrmsilva
+ * Celular: 81 99668-0318
+ *
+ * Facebook: https://www.facebook.com/profile.php?id=100004332602666
+ * Celular: 81 98657-8987
+*/
+
+/*
+ ! ANEXOS DE ESTILOS
+*/
+.clear{
+	clear: both;
+}
+.conteudo h2{
+	font-size: 35px;
+	text-transform: uppercase;
+	margin-top: 50px;
+	font-style: italic;
+}
+section.conteudo-publicacao{
+	padding: 90px 2%;
+	background-color: #fff;
+}
+section.conteudo-publicacao h2{
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+section.conteudo-publicacao p{
+	text-align: justify;
+}
+.contexto-conteudo{
+	float: right;
+	width: 60%;
+	text-align: justify;
+	margin-right: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.button-voltar-conteudo-publicacao{
+	margin-top: 30px;
+}
+.button-voltar-conteudo-publicacao a{
+	padding: 10px 30px;
+	background-color: #007BFF;
+	color: #fff;
+	border-radius: 5px;
+}
+
+@media screen and (max-width: 700px){
+	section.conteudo-publicacao h2{
+		font-size: 25px;
+	}
+	.contexto-conteudo{
+		margin-right: 0;
+		font-size: 16px;
+		width: 80%;
+	}
+}
